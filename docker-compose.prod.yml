@@ -1,0 +1,8 @@
+version: '2.4'
+ 
+services:
+  frontend:
+    image: backend-app
+    container_name: backend-app
+    ports:
+      - 5001:5001

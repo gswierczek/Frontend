@@ -1,0 +1,8 @@
+version: '2.4'
+
+services:
+  frontend:
+    image: frontend-app
+    container_name: frontend-app
+    ports:
+      - 5000:5000
